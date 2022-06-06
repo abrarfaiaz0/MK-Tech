@@ -73,7 +73,8 @@ img{
     
 }
 div{
-    /* border: 3px solid red; */
+    /* border: 1px solid red;
+    margin: 2px; */
 }
 .lang-btn>button{
     border: 0;
@@ -94,6 +95,9 @@ button:active{
     flex-direction: column;
     align-items: center;
     gap: 15px;
+}
+.content-1-text-container>hr{
+    margin-bottom: 35px;
 }
 .content-1-container-ctn{
     display: flex;
@@ -312,6 +316,32 @@ a{
 .slider-cards-container{
     margin-top: 40px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.slider-cards{
+    display: flex;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px dashed #FF6F00;
+    border-spacing: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.card-ctn{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+}
+.card-text-ctn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
 }
 .footer{
     display: flex;
@@ -324,6 +354,7 @@ a{
     justify-content: flex-start;
     gap: 20px;
 }
+
 .text-size{
     font-size: 22px;
 }
@@ -336,4 +367,31 @@ a{
 }
 .shadow-down{
     box-shadow: 5px 0 black;
+}
+.footer-logo-ctn{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.footer-logo-ctn>div{
+    max-width: 30px;
+    max-height: 30px;
+}
+.footer-logo-ctn>div>img{
+    height: 100%;
+    width: 100%;
+}
+.slider-buttons{
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+#slider-left,#slider-right{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 30px;
 }

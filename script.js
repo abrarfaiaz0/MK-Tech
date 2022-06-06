@@ -47,7 +47,7 @@ function goBanner(){
    button.style.color = "white";
    button.style.backgroundColor = "#FF6F00";
    title.innerHTML = "BANNER AD";
-   text.innerHTML = "Choose between the available banner formats. Highly effective ad for visibility.                                                                                               ";
+   text.innerHTML = "Choose between the available banner formats. Highly effective ad for visibility.";
 }
 
 function clearOther(){

@@ -25,6 +25,11 @@ body{
 .lang-btn{
     
 }
+.subcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
 .nav-container{
     display: flex;
     justify-content: flex-start;
@@ -52,7 +57,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100%;
-    gap: 50px;
+   
 }
 .hero-artwork>img{
 }
@@ -90,17 +95,22 @@ button:active{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 .content-1-img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    
 }
 .round-img{
     background-color: white;
     border-radius: 500px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hello-btn{
     margin: 5px;
@@ -119,7 +129,7 @@ button:active{
     color: white;
 }
 .shadow-around{
-    
+    box-shadow: 2px 2px 15px rgb(183, 196, 200);
 }
 .shadow-bottom{
     box-shadow: 0px 3px 5px rgb(125, 142, 147);
@@ -131,24 +141,71 @@ hr{
     width: 100%;
 }
 .content-2-container{
-    margin: 30px;
+    margin-top: 30px;
+    gap: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    
 }
 .buttons-ctn{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
+    margin-top: 25px;
 }
 .ad-button{
     margin: 5px;
     border: 0;
-    background-color: #FF6F00;
-    border-radius: 20px;
-    color: white;
-    padding: 8px 80px 8px 80px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    color: black;
     cursor: pointer;
+}
+.ctn1-text{
+    margin-top: 23px;
+    margin-bottom: 40px;
+}
+button{
+    height: 45px;
+    width: 275px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.content-2-container-2{
+    display: flex;
+    gap: 140px;
+}
+.content-2-img{
+    max-height: 300px;
+    max-width: 400px;
+}
+.content-2-img>img{
+    height: 100%;
+    width: 100%;
+}
+.content-2-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content-2-container-ctn{
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.content-2-text-title{
+    color: #FF6F00;
+}
+.learn-more{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.learn-more>img{
+    height: 20px;
+    width: 20px;
 }

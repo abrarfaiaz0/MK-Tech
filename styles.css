@@ -35,10 +35,36 @@ body{
 .nav-container{
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap;
 }
 .nav{
     margin: 0 40px 0 0px;
+}
+.login{
+    
+}
+.login-button{
+    position: relative;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 140px;
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.signup{
+    position: absolute;
+    border: none;
+    z-index: 5;
+    right: 220px;
+    top: 145px;
+    border-radius: 25px;
+    width: 60px;
+    height: 30px;
+    background-color: #FF6F00;
+    cursor: pointer;
 }
 .hero-container{
     display: flex;
@@ -72,10 +98,10 @@ img{
 .signup-button{
     
 }
-div{
-    /* border: 1px solid red;
-    margin: 2px; */
-}
+/* div{
+    border: 1px solid red;
+    margin: 2px;
+} */
 .lang-btn>button{
     border: 0;
     background-color: #f2f2f2;
@@ -309,7 +335,7 @@ a{
     background-color: #b8c8e6;
     border-radius: 30px;
 }
-#slider-menu-1{
+.slider-menu-active{
     width: 30px;
     background-color: #644F9C;
 }
@@ -323,7 +349,7 @@ a{
 .slider-cards{
     display: flex;
     height: 200px;
-    width: 300px;
+    width: 500px;
     background-color: white;
     border-radius: 10px;
     border: 1px dashed #FF6F00;
@@ -333,9 +359,18 @@ a{
 }
 .card-ctn{
     display: flex;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
+    width: 100%;
     gap: 10px;
+}
+.card-image{
+    background-color: grey;
+    height: 170px;
+    width: 170px;
+    color: white;
+    font-size: 40px;
 }
 .card-text-ctn{
     display: flex;
